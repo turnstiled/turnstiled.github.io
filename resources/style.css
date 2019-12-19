@@ -5,3 +5,25 @@ body {
 .header {
     text-align: center;
 }
+
+.band-bio {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+}
+
+.jesse-hughes {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+}
+.josh-homme {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+}
+.dave-catching {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+}
