@@ -1,29 +1,86 @@
 body {
-    background-color: rgba(0, 89, 255, 0.3);
+  background-color: rgb(102, 255, 237);
 }
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
+.header,
+h3 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
+  font-size: 26px;
+}
+
+p {
+  font-size: 28px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Navbar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  /* For Safari */
+  position: sticky;
+  top: 0;
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #F70504;
+}
+
+/* Body formatting */
+
 .band-bio {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-gap: 20px;
+  align-content: center;
+  text-align: center;
+  padding: 3px 0px;
 }
 
 .jesse-hughes {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 20px;
 }
+
 .josh-homme {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 20px;
 }
+
 .dave-catching {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 20px;
+}
+
+.member {
+  float: left;
+  width: 33.33%;
 }
